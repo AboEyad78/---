@@ -1,0 +1,264 @@
+/*
+خاصية ل اخفاء النصوص التفصيلية للكتب 
+*/
+
+.d1{
+   display: none;
+}
+.d2{
+   display: none;
+}
+.d3{
+   display: none;
+}
+.d4{
+   display: none;
+}
+.d5{
+   display: none;
+}
+.a{
+   display: none;
+}
+
+/*   لتنسيق لون وحجم الاحرف  ومحاذاة الكلام وخصائص تعديل الخلفية من الوان ةاحجام*/
+.all_home {
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   letter-spacing: 1px;
+   text-align: center;
+   color: rgb(255, 255, 255);  
+   font-size: 35px;
+   padding: 10px 10px 10px 50px;
+   height: 800px;
+   background: linear-gradient(20deg , rgb(12, 33, 38) 20px, rgba(25, 97, 145, 0.889) 150%);
+   position: relative;
+   flex-direction: column;
+   align-items: center;
+   padding: 100px 20vw ;
+   min-height: 400px;
+  
+}
+
+.h1{
+   text-align:center;
+   color:  rgb(255, 255, 255) ;
+   font-size: 45px;
+}
+.h3{
+   text-align: right;
+   color: rgb(0, 0, 0, 0.632); 
+   font-size: 25px;
+}
+.h3big{
+   text-align: right;
+   color: rgb(0, 0, 0,0.632); 
+   font-size: 25px;
+}
+.h3t{
+   text-align: right;
+   color: rgba(0, 0, 0, 0.632); 
+   font-size: 25px;
+}
+.h3tawsol{
+   text-align: right;
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+}
+
+
+/*   لتنسيق لون وحجم الاحرف  ومحاذاة الكلام وخصائص تعديل الخلفية من الوان ةاحجام*/
+.about{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   line-height: 1.7;
+   letter-spacing: 1px;
+   text-align: right;
+   color: rgb(255, 255, 255); 
+   padding: 10px 10px 10px 50px;
+   height: 900px;
+   background: linear-gradient(20deg , rgb(12, 33, 38) 20px, rgba(33, 98, 142, 0.955) 150%);
+   position: relative;
+   flex-direction: column;
+   align-items: center;
+   padding: 100px 20vw ;
+   min-height: 400px;
+   
+}
+/*   لتنسيق لون وحجم الاحرف  ومحاذاة الكلام وخصائص تعديل الخلفية من الوان ةاحجام*/
+.book{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   color: rgb(199, 198, 211); 
+   height: 4500px;
+   background: linear-gradient(20deg , rgb(12, 33, 38) 20px, rgba(17, 61, 90, 0.956) 150%);
+   align-items: center;
+   padding: 150px 19vw;
+   
+}
+.التواصل{
+   color: rgb(34, 39, 180); 
+   font-size: 15px;
+}
+.العنوان{
+   color:  rgb(255, 255, 255);
+   font-size: 35px;
+}
+.الجدول{
+   color: rgb(142, 200, 215) ;
+   font-size: 25px;
+   
+
+}
+.d1{
+   color: rgb(255, 255, 255); 
+   font-size: 13px;
+   vertical-align:middle;
+   
+}
+.d2{
+   color: rgb(255, 255, 255); 
+   font-size: 13px;
+   vertical-align:middle;
+}
+.d3{
+   color: rgb(255, 255, 255); 
+   font-size: 13px;
+   vertical-align:middle;
+}
+.d4{
+   color: rgb(254, 254, 254); 
+   font-size: 13px;
+   vertical-align:middle;
+}
+.d5{
+   color: rgb(255, 255, 255); 
+   font-size: 13px;
+   vertical-align:middle;
+}
+
+table{
+   width: 125%;
+   border : 1px solid #ccc
+   
+  
+}
+
+
+td{
+   padding: 20px;
+   height: 20px;
+
+   
+   }
+table thead td{
+   
+   color: #ccc;
+   font-weight: bold;
+   text-align: center;
+   height: 10px;
+   padding: 5px;
+
+}
+.bot1{  font-size: 20px;
+   border: 1px solid rgb(24, 76, 110);
+   padding :5px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(24, 76, 110);
+   border-radius: 5px;
+   transition: all 0.5s; 
+   align-content: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifxt
+}
+.bot1:hover{
+   font-size: 22px;
+   border: 1px solidrgb(26, 103, 174);
+   padding :5px;
+   color:  rgb(18, 66, 98);
+   background-color:rgb(255, 255, 255);
+   border-radius: 5px;
+   transition: all 0.5s; 
+   align-content: center;
+}
+
+.bot2{
+   font-size: 15px;
+   border: 1px solid rgb(24, 76, 110);
+   padding :5px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(24, 76, 110);
+   border-radius: 5px;
+   transition: all 0.5s; 
+   align-content: center;
+}
+.bot2:hover{
+   font-size: 15px;
+   border: 1px solidrgb(26, 103, 174);
+   padding :5px;
+   color:  rgb(24, 76, 110);
+   background-color:rgb(255, 255, 255);
+   border-radius: 5px;
+   transition: all 0.5s; 
+   align-content: center;
+   
+}
+.rabt{
+   font-size: 25px;
+   text-align: left;
+
+}
+.cont{
+   max-width: 400px;
+   margin: 30px auto;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    direction: rtl;
+    text-align: right;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:rgba(150, 220, 246, 0.103);
+    color: rgb(254, 254, 254);
+}
+.hidden{
+   display: none;
+  
+}
+.f-g{
+   display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.hidden {
+   display: none;
+   margin-top: 15px;
+   font-size: 18px;
+   color: #000000;
+   font-weight: bold;
+}
+.radio-group input[type="radio"] {
+   margin-right: 10px;
+   cursor: pointer;
+}
+#mBox {
+   margin-top: 20px;
+   padding: 15px;
+   border: 2px solidrgb(24, 76, 110);;
+   background-color: #9de2f696;
+   border-radius: 8px;
+   color: rgb(24, 76, 110);;
+   font-size: 18px;
+   font-weight: bold;
+   max-width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+
+
+
+
